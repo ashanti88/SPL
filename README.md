@@ -8,5 +8,5 @@ This Cloudformation template creates following resourses:
 5. Launch configuration for autoscaling group. 
 6. 2 Security Groups for EC2 Instance and ELB
 
-EC2 instance using userdata to install Apache2 server, start it and output result of the exit status. 
+EC2 instance using userdata to install Apache2 server and start it. 
 Template provides parameters for users to specify networking bits.
