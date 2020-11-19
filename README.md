@@ -10,3 +10,4 @@ This Cloudformation template creates following resourses:
 
 EC2 instance using userdata to install Apache2 server and start it. 
 Template provides parameters for users to specify networking bits.
+To spread load on instances I created Autoscaling Group which will automatically adjust capacity to maintain steady, predictable performance
